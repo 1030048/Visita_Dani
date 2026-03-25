@@ -410,7 +410,7 @@ def admin_panel():
 
 def main():
     st.set_page_config(page_title=APP_TITLE, page_icon="🗓️", layout="centered")
-    st.title("🗓️ Agendamento de Visitas")
+    st.title("🗓️ Agendamento de Visitas Daniela")
     st.caption("Acesso restrito por senha partilhada entre família e amigos.")
 
     if not require_password():
