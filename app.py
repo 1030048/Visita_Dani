@@ -22,7 +22,10 @@ VISIT_BLOCKS = [
 
 # --- Localização ---
 LOCATION_TITLE = "Localização"
-LOCATION_TEXT = "Hospital S. João Unidade de\n hemato-oncologia piso 9 cama 9301"
+LOCATION_TEXT = """Hospital S. João
+Unidade de hemato-oncologia
+Piso 9
+Cama 9301"""
 LOCATION_MAPS_URL = os.getenv("VISIT_LOCATION_MAPS", "")
 
 # ================================
@@ -415,7 +418,7 @@ def main():
 
     with st.container(border=True):
         st.markdown(f"**{LOCATION_TITLE}**")
-        st.markdown(LOCATION_TEXT.replace("", " "))
+        st.markdown(LOCATION_TEXT.replace("\n", "  \n"))
         if LOCATION_MAPS_URL:
             st.markdown(f"[Ver no Google Maps]({LOCATION_MAPS_URL})")
 
