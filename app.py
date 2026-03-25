@@ -22,7 +22,7 @@ VISIT_BLOCKS = [
 
 # --- Localização ---
 LOCATION_TITLE = "Localização"
-LOCATION_TEXT = "Hospital S. João Unidade de hemato-oncologia piso 9 cama 9301"
+LOCATION_TEXT = "Hospital S. João Unidade de\n hemato-oncologia piso 9 cama 9301"
 LOCATION_MAPS_URL = os.getenv("VISIT_LOCATION_MAPS", "")
 
 # ================================
