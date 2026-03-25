@@ -8,10 +8,10 @@ from supabase import create_client, Client
 # ================================
 # Configuração geral
 # ================================
-APP_TITLE = "Agendamento de Visitas"
+APP_TITLE = "Agendamento de Visitas Daniela"
 TIMEZONE = ZoneInfo("Europe/Lisbon")
-DEFAULT_PASSWORD = os.getenv("VISIT_APP_PASS", "familia2025")
-ADMIN_PASSWORD = os.getenv("VISIT_APP_ADMIN_PASS", "gestao2025")
+DEFAULT_PASSWORD = os.getenv("VISIT_APP_PASS", "familia2026")
+ADMIN_PASSWORD = os.getenv("VISIT_APP_ADMIN_PASS", "gestao2026")
 PARTY_CAPACITY = 2
 
 # Blocos fixos disponíveis todos os dias
@@ -22,7 +22,7 @@ VISIT_BLOCKS = [
 
 # --- Localização ---
 LOCATION_TITLE = "Localização"
-LOCATION_TEXT = "Centro de Reabilitação do Norte\n Area de TCE - 2o piso - Sul - Cama 279"
+LOCATION_TEXT = "Hospital S. João Unidade de hemato-oncologia piso 9 cama 9301"
 LOCATION_MAPS_URL = os.getenv("VISIT_LOCATION_MAPS", "")
 
 # ================================
